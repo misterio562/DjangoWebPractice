@@ -1,0 +1,63 @@
+body{
+    background-color: #202020;
+    color: antiquewhite;
+}
+
+.navbar {
+    background-color: #353538;
+    padding: 5px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: rgb(236, 199, 154);
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar ul li a:hover{
+    color: rgb(255, 140, 0);
+}
+
+.container{
+    max-width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+
+.container-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.container p{
+    color: rgb(160, 157, 157);
+}
+
+.p-proyect{
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.p-proyect:hover{
+    transform: scale(1.9,1.9);
+    animation: linear 2s ease-in-out;
+}
+
+.input{
+    display: block;
+    background: wheat;
+    padding: 10px;
+    text-align: center;
+}

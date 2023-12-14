@@ -1,0 +1,15 @@
+{% extends 'layouts/base.html' %}
+
+{% block content %}
+
+<section class="container-section">
+    <h1>Proyectos</h1>
+
+    {% for project in projects %}
+    <a href="{% url 'project_detail' project.id %}">
+        <p class="p-proyect">{{project.name}}</p>
+    </a>
+    {% endfor %}
+</section>
+
+{% endblock %}

@@ -1,0 +1,54 @@
+{% extends 'layouts/base.html' %}
+
+{% load static %}
+
+{% block content %}
+<section class="container-section">
+    <h1>Bienvenido a la {{title}} </h1>
+
+    <img src="{% static 'backgroundImageSkills.jpeg' %}" alt="" width="500">
+
+    <p>En la búsqueda de herramientas versátiles y poderosas para el desarrollo web, descubrí la capacidad de Django
+        para no
+        solo construir aplicaciones dinámicas, sino también para crear páginas web estáticas de manera eficaz y
+        elegante.</p>
+
+    <h2>Diseño Limpio y Estructura Organizada</h2>
+
+    <p>Django, conocido por su estructura MVT (Modelo-Vista-Plantilla), proporcionó una base sólida para organizar mi
+        proyecto web estático. La separación clara entre la lógica de presentación y las plantillas permitió un diseño
+        limpio y una estructura fácil de entender.</p>
+
+    <h2>Plantillas Reutilizables y Consistencia Estilística</h2>
+
+    <p>El sistema de plantillas de Django facilitó la creación de páginas HTML reutilizables, lo que resultó
+        fundamental
+        para mantener la consistencia estilística en todo el sitio web. La posibilidad de definir bloques de contenido y
+        extender plantillas simplificó la tarea de mantener la uniformidad visual.</p>
+
+    <h2> Integración de Contenido Multimedia
+    </h2>
+    <p>La gestión de archivos estáticos en Django facilitó la incorporación de imágenes, hojas de estilo y otros
+        recursos
+        multimedia en mi página web estática. La capacidad de organizar y referenciar estos archivos de manera
+        estructurada
+        permitió una presentación atractiva y profesional.</p>
+
+    <h2> Despliegue Sencillo y Velocidad de Carga Rápida
+    </h2>
+    <p>Django, incluso para páginas estáticas, demostró ser eficiente en el proceso de despliegue. El uso de
+        plataformas
+        como GitHub Pages o Netlify facilitó aún más la publicación de mi sitio web estático. La velocidad de carga
+        rápida,
+        una característica inherente a las páginas estáticas, garantizó una experiencia de usuario ágil.</p>
+
+    <h2> SEO Amigable y Enlaces Permanentes
+    </h2>
+    <p> Django proporciona herramientas para facilitar la optimización de motores de búsqueda (SEO) incluso en páginas
+        estáticas. La capacidad de gestionar fácilmente los enlaces permanentes y la generación de sitemaps mejoraron la
+        visibilidad en los resultados de búsqueda.</p>
+
+
+</section>
+
+{% endblock %}

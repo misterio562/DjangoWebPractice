@@ -1,0 +1,11 @@
+env/
+
+# Archivos Pycache y __pycache__
+__pycache__/
+*.pyc
+
+# Archivos de Registro
+*.log
+
+# Archivos de Base de Datos
+db.sqlite3
